@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f8f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #2a9d8f;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px 0;
+    font-size: 16px;
+    background-color: #2a9d8f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #23887b;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: calc(100% - 22px);
+    margin: 10px 0;
+}
+
+#eco-score, #green-tips {
+    margin-top: 20px;
+}
